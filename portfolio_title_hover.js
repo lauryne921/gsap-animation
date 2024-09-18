@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add a media query that targets screens with a minimum width of 992px
     mm.add('(min-width: 992px', () => {
         const fontWeightItems = document.querySelectorAll(
-            '[data-animate=""font-weight"]'
+            '[data-animate="font-weight"]'
         );
         const MAX_DISTANCE = 300;
         const MAX_FONT_WEIGHT = 800;
